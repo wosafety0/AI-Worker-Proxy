@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   acceptance:
-    uses: wosafety0/dev-workflow-kit/.github/workflows/reusable-acceptance.yml@37dc07c7d7055a740c754ab543eeecc9e01d9db0
+    uses: wosafety0/dev-workflow-kit/.github/workflows/reusable-acceptance.yml@c4cf3e1c11deec098c6a7a6e3837bbe983dcece5
     with:
       runtime: node
       node-version: "26"
