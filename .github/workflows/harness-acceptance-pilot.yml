@@ -1,0 +1,21 @@
+name: Harness Acceptance Pilot
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  acceptance:
+    uses: wosafety0/dev-workflow-kit/.github/workflows/reusable-acceptance.yml@c4cf3e1c11deec098c6a7a6e3837bbe983dcece5
+    with:
+      runtime: node
+      node-version: "26"
+      package-manager: pnpm
+      pnpm-version: "11.4.0"
+      test-command: >-
+        pnpm install --frozen-lockfile &&
+        pnpm run lint &&
+        pnpm run type-check &&
+        pnpm exec prettier --check "src/**/*.ts"
