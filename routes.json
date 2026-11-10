@@ -2,15 +2,28 @@
   "fast": [
     {
       "provider": "google",
-      "model": "gemini-2.0-flash-exp",
-      "apiKeys": ["GOOGLE_KEY_1"]
+      "model": "gemini-3.8-flash",
+      "apiKeys": [
+        "GOOGLE_KEY_1"
+      ]
     }
   ],
   "deep-think": [
     {
       "provider": "anthropic",
+      "model": "claude-opus-5-5",
+      "apiKeys": [
+        "ANTHROPIC_KEY_1",
+        "ANTHROPIC_KEY_2"
+      ]
+    },
+    {
+      "provider": "anthropic",
       "model": "claude-opus-4-20250514",
-      "apiKeys": ["ANTHROPIC_KEY_1", "ANTHROPIC_KEY_2"]
+      "apiKeys": [
+        "ANTHROPIC_KEY_1",
+        "ANTHROPIC_KEY_2"
+      ]
     }
   ],
   "nvidia": [
@@ -18,7 +31,117 @@
       "provider": "openai-compatible",
       "baseUrl": "https://integrate.api.nvidia.com/v1",
       "model": "nvidia/llama-3.1-nemotron-70b-instruct",
-      "apiKeys": ["NVIDIA_KEY_1"]
+      "apiKeys": [
+        "NVIDIA_KEY_1"
+      ]
+    }
+  ],
+  "gemini-3.8-flash": [
+    {
+      "provider": "google",
+      "model": "gemini-3.8-flash",
+      "apiKeys": [
+        "GOOGLE_KEY_1"
+      ]
+    }
+  ],
+  "gemini-3.7-flash": [
+    {
+      "provider": "google",
+      "model": "gemini-3.7-flash",
+      "apiKeys": [
+        "GOOGLE_KEY_1"
+      ]
+    }
+  ],
+  "gemini-3.6-flash": [
+    {
+      "provider": "google",
+      "model": "gemini-3.6-flash",
+      "apiKeys": [
+        "GOOGLE_KEY_1"
+      ]
+    }
+  ],
+  "gemini-3.5-flash": [
+    {
+      "provider": "google",
+      "model": "gemini-3.5-flash",
+      "apiKeys": [
+        "GOOGLE_KEY_1"
+      ]
+    }
+  ],
+  "gemini-3.5-flash-lite": [
+    {
+      "provider": "google",
+      "model": "gemini-3.5-flash-lite",
+      "apiKeys": [
+        "GOOGLE_KEY_1"
+      ]
+    }
+  ],
+  "gemini-3.1-pro-preview": [
+    {
+      "provider": "google",
+      "model": "gemini-3.1-pro-preview",
+      "apiKeys": [
+        "GOOGLE_KEY_1"
+      ]
+    }
+  ],
+  "gemini-3.1-flash-lite": [
+    {
+      "provider": "google",
+      "model": "gemini-3.1-flash-lite",
+      "apiKeys": [
+        "GOOGLE_KEY_1"
+      ]
+    }
+  ],
+  "gemini-3-flash-preview": [
+    {
+      "provider": "google",
+      "model": "gemini-3-flash-preview",
+      "apiKeys": [
+        "GOOGLE_KEY_1"
+      ]
+    }
+  ],
+  "gemini-2.5-pro": [
+    {
+      "provider": "google",
+      "model": "gemini-2.5-pro",
+      "apiKeys": [
+        "GOOGLE_KEY_1"
+      ]
+    }
+  ],
+  "gemini-2.5-flash": [
+    {
+      "provider": "google",
+      "model": "gemini-2.5-flash",
+      "apiKeys": [
+        "GOOGLE_KEY_1"
+      ]
+    }
+  ],
+  "gemini-flash-latest": [
+    {
+      "provider": "google",
+      "model": "gemini-flash-latest",
+      "apiKeys": [
+        "GOOGLE_KEY_1"
+      ]
+    }
+  ],
+  "gemini-flash-lite-latest": [
+    {
+      "provider": "google",
+      "model": "gemini-flash-lite-latest",
+      "apiKeys": [
+        "GOOGLE_KEY_1"
+      ]
     }
   ]
 }
